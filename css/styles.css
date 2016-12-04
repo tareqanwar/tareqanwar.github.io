@@ -6,3 +6,127 @@ body {
 button {
   outline: 0 !important;
 }
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 70px;
+  font-family: 'Fredericka The Great', Arial;
+}
+
+header {
+  background: url('../images/pexels-photo.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+h2 {
+  font-family: 'Amatic SC', Arial;
+  display: inline-block;
+  font-size: 40px;
+  border-bottom: 2px solid white;
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+h3 {
+  font-family: Lato, Arial;
+  font-weight: 900;
+  font-size: 40px;
+  color: white;
+  margin: 20px auto;
+}
+
+h4 {
+  font-family: Lato, Arial;
+  font-weight: 700;
+  font-size: 28px;
+  color: white;
+}
+
+section {
+  padding: 10vh 0;
+}
+
+h3 i {
+  margin-right: 20px;
+}
+
+.navbar {
+  background: none;
+  border: none;
+  transition: background 0.8s;
+}
+
+.navbar-brand {
+  color: rgba(255, 255, 255, 0.8)!important;
+  font-family: Lato, Arial;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.navbar-default .navbar-nav li a {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 'Lato', Arial;
+  font-size: 16px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.navbar-default .navbar-nav li a:hover {
+  color: #FFF;
+  transition: color .3s;
+}
+
+.navbar-default .navbar-nav li a:focus {
+  color: #FFF;
+  transition: color .3s;
+}
+
+.navbar-toggle {
+  background: none!important;
+  color: #FFF;
+}
+
+.header-content {
+  color: #FFF;
+  padding-top: 33vh;
+  text-align: center;
+}
+
+.header-content a,
+.navbar-brand::first-letter {
+  color: #FFF;
+}
+
+.header-content button {
+  -moz-animation-delay: 1.75s;
+  -webkit-animation-delay: 1.75s;
+  animation-delay: 1.75s;
+  background: none;
+  border: 2px solid #FFF;
+  border-radius: 4px;
+  color: #FFF;
+  font-weight: 400;
+  height: 35px;
+  margin-top: 55px;
+  outline: none;
+  padding: 0 25px;
+}
+
+.social-icons {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.social-icons i {
+  margin: 0 5px;
+}
+
+.social-icons i:hover {
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
