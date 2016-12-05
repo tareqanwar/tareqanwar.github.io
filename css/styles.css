@@ -1,127 +1,127 @@
 html,
 body {
-  font-family: 'Lato', Arial;
+    font-family: 'Lato', Arial;
 }
 
 button {
-  outline: 0 !important;
+    outline: 0 !important;
 }
 
 h1 {
-  margin: 0;
-  padding: 0;
-  font-size: 70px;
-  font-family: 'Fredericka The Great', Arial;
+    margin: 0;
+    padding: 0;
+    font-size: 70px;
+    font-family: 'Fredericka The Great', Arial;
 }
 
 header {
-  background: #132639;
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
+    background: #004080;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
 
 h2 {
-  font-family: 'Amatic SC', Arial;
-  display: inline-block;
-  font-size: 40px;
-  border-bottom: 2px solid white;
-  margin: 0;
-  padding-bottom: 5px;
+    font-family: 'Amatic SC', Arial;
+    display: inline-block;
+    font-size: 40px;
+    border-bottom: 2px solid white;
+    margin: 0;
+    padding-bottom: 5px;
 }
 
 h3 {
-  font-family: Lato, Arial;
-  font-weight: 900;
-  font-size: 40px;
-  color: white;
-  margin: 20px auto;
+    font-family: Lato, Arial;
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+    margin: 20px auto;
 }
 
 h4 {
-  font-family: Lato, Arial;
-  font-weight: 700;
-  font-size: 28px;
-  color: white;
+    font-family: Lato, Arial;
+    font-weight: 700;
+    font-size: 28px;
+    color: white;
 }
 
 section {
-  padding: 10vh 0;
+    padding: 10vh 0;
 }
 
 h3 i {
-  margin-right: 20px;
+    margin-right: 20px;
 }
 
 .navbar {
-  background: none;
-  border: none;
-  transition: background 0.8s;
+    background: none;
+    border: none;
+    transition: background 0.8s;
 }
 
 .navbar-brand {
-  color: rgba(255, 255, 255, 0.8)!important;
-  font-family: Lato, Arial;
-  font-size: 36px;
-  font-weight: 900;
+    color: rgba(255, 255, 255, 0.8)!important;
+    font-family: Lato, Arial;
+    font-size: 36px;
+    font-weight: 900;
 }
 
 .navbar-default .navbar-nav li a {
-  color: rgba(255, 255, 255, 0.8);
-  font-family: 'Lato', Arial;
-  font-size: 16px;
-  font-weight: 700;
-  padding-bottom: 10px;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Lato', Arial;
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 10px;
 }
 
 .navbar-default .navbar-nav li a:hover {
-  color: #FFF;
-  transition: color .3s;
+    color: #FFF;
+    transition: color .3s;
 }
 
 .navbar-default .navbar-nav li a:focus {
-  color: #FFF;
-  transition: color .3s;
+    color: #FFF;
+    transition: color .3s;
 }
 
 .navbar-toggle {
-  background: none!important;
-  color: #FFF;
+    background: none!important;
+    color: #FFF;
 }
 
 .header-content {
-  color: #FFF;
-  padding-top: 33vh;
-  text-align: center;
+    color: #FFF;
+    padding-top: 33vh;
+    text-align: center;
 }
 
 .header-content a,
 .navbar-brand::first-letter {
-  color: #FFF;
+    color: #FFF;
 }
 
 .header-content button {
-  -moz-animation-delay: 1.75s;
-  -webkit-animation-delay: 1.75s;
-  animation-delay: 1.75s;
-  background: none;
-  border: 2px solid #FFF;
-  border-radius: 4px;
-  color: #FFF;
-  font-weight: 400;
-  height: 35px;
-  margin-top: 55px;
-  outline: none;
-  padding: 0 25px;
+    -moz-animation-delay: 1.75s;
+    -webkit-animation-delay: 1.75s;
+    animation-delay: 1.75s;
+    background: none;
+    border: 2px solid #FFF;
+    border-radius: 4px;
+    color: #FFF;
+    font-weight: 400;
+    height: 35px;
+    margin-top: 55px;
+    outline: none;
+    padding: 0 25px;
 }
 
 .social-icons {
-  font-size: 30px;
-  margin-top: 10px;
+    font-size: 30px;
+    margin-top: 10px;
 }
 
 .social-icons i {
-  margin: 0 5px;
+    margin: 0 5px;
 }
 
 .social-icons i:hover {
@@ -129,4 +129,53 @@ h3 i {
     animation: swing 1s ease;
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
+}
+
+.about {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.tagline {
+    text-align: center!important;
+}
+
+.about-section {
+    background: #004d00;
+    text-align: center;
+    box-shadow: inset 0 -15px 30px -15px #000;
+}
+
+.about p {
+    margin: 20px auto;
+    font-weight: 300;
+    text-align: justify;
+    width: 580px;
+}
+
+.profilepic {
+    border: 20px solid rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    margin: 65px auto;
+}
+
+.about-section button {
+    background: none;
+    border: 2px solid #FFF;
+    border-radius: 4px;
+    color: #FFF;
+    font-weight: 700;
+    height: 35px;
+    margin-top: 60px;
+    outline: none;
+}
+
+.about-section button i {
+    margin-right: 5px;
+}
+
+.about-section button:hover,
+.header-content button:hover {
+    background: rgba(0, 0, 0, 0.2);
 }
