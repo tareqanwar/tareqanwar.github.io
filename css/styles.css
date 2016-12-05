@@ -142,9 +142,9 @@ h3 i {
 }
 
 .about-section {
-    background: #004d00;
+    background: #669900;
     text-align: center;
-    box-shadow: inset 0 -15px 30px -15px #000;
+    box-shadow: inset 0 -15px 30px -20px #000;
 }
 
 .about p {
@@ -178,4 +178,55 @@ h3 i {
 .about-section button:hover,
 .header-content button:hover {
     background: rgba(0, 0, 0, 0.2);
+}
+
+.btn-code {
+  background: #a7495b;
+  border: none;
+  color: #FFF;
+}
+
+.btn-proj {
+  background: #498aa7;
+  border: none;
+  color: #FFF;
+}
+
+.caption h4 {
+  font-weight: 700;
+}
+
+.project-tile {
+  padding: 2vh 5%;
+}
+
+.project-tile h4 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.projects {
+  box-shadow: inset 0 15px 30px -15px #000;
+  background: #a7495b;
+  text-align: center;
+}
+
+.thumbnail {
+  background: #FFF;
+  border: none;
+}
+
+.thumbnail img {
+  width: 100%;
+}
+
+.f3 {
+  -webkit-animation-duration: 0.9s;
+  animation-duration: 0.9s;
+}
+
+.s3 {
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
 }
