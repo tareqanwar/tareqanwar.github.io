@@ -208,7 +208,7 @@ h3 i {
 
 .projects {
   box-shadow: inset 0 15px 30px -15px #000;
-  background: #a7495b;
+  background: #b3f0ff;
   text-align: center;
 }
 
@@ -229,4 +229,136 @@ h3 i {
 .s3 {
   -webkit-animation-duration: 1.5s;
   animation-duration: 1.5s;
+}
+
+.caption h4 {
+  font-weight: 700;
+}
+
+.contact {
+  background: #252525;
+  font-family: Lato, Arial;
+  padding: 100px;
+  text-align: center;
+}
+
+.contact a {
+  color: #FFF;
+  font-size: 1.3em;
+  font-weight: 300;
+}
+
+.contact a:hover {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+}
+
+.contact h3 {
+  font-size: 2em;
+  font-weight: 400;
+  width: 250px;
+}
+
+.contact i {
+  color: #FFF;
+  font-size: 1.6em;
+  margin-right: 10px;
+}
+
+.contact p {
+  margin-left: 30%;
+  text-align: left;
+}
+
+.contact-content {
+  margin: 0 auto;
+  width: 280px;
+}
+
+.creator {
+  background: #111;
+  padding: 5px;
+  text-align: center;
+}
+
+.creator p {
+  color: #FFF;
+  font-family: Lato, Arial;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0;
+}
+
+@media (max-width: 1200px) {
+  .about-section div img {
+    width: 40%;
+  }
+  .profilepic {
+    margin: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 36px;
+    font-weight: 900;
+    font-family: 'Lato';
+  }
+  h2 {
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Lato';
+  }
+  .about-section div img {
+    width: 50%;
+  }
+  .social-icons i {
+    margin: 0;
+  }
+}
+
+@media(max-width: 605px) {
+  .about p {
+    width: 354px;
+  }
+  .about-section div img {
+    width: 60%;
+  }
+  section p {
+    font-size: 16px;
+  }
+}
+
+@media(max-width: 525px) {
+  h3 {
+    font-size: 32px;
+  }
+  .about-section div img {
+    width: 70%;
+  }
+  .about {
+    padding: 0;
+  }
+  .contact {
+    padding: 50px 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .about p {
+    width: 280px;
+  }
+}
+
+
+/* Fix Landscape on Mobile */
+
+@media screen and (orientation: landscape) and (max-height: 568px) {
+  .header-content button {
+    display: none;
+  }
+  .thumbnail {
+    width: 55%;
+    margin: 0 auto;
+  }
 }

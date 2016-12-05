@@ -47,4 +47,10 @@ $(document).ready(function() {
             scrollTop: $('.projects').offset().top
         }, 1300);
     });
+    
+    $('.contact-nav').click(function() {
+        $('html, body').animate({
+            scrollTop: $('.contact').offset().top
+        }, 1300);
+    });
 });
