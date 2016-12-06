@@ -28,7 +28,7 @@ $(document).ready(function() {
             aboutAnimate = false;
         } else if (scrollEnd > tOffset.top && technologiesAnimate) {
             $('.techsquares img').addClass('animated fadeInUp');
-            projectsAnimate = false;
+            technologiesAnimate = false;
         } else if (scrollEnd > pOffset.top && projectsAnimate) {
             $('.f3').addClass('animated fadeInUp');
             $('.s3').addClass('animated fadeInUp');
@@ -47,7 +47,7 @@ $(document).ready(function() {
             scrollTop: $('.projects').offset().top
         }, 1300);
     });
-    
+
     $('.contact-nav').click(function() {
         $('html, body').animate({
             scrollTop: $('.contact').offset().top
