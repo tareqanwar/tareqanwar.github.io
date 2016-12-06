@@ -21,7 +21,6 @@ $(document).ready(function() {
             $('.navbar').css('background', 'none');
             headerAnimate = true;
         } else if (scrollEnd > aOffset.top && aboutAnimate) {
-            console.log(aOffset);
             $('.about p, .about h4').addClass('animated fadeInUp');
             $('.about h3').addClass('animated fadeInDown');
             $('.profilepic').addClass('animated fadeInUp');
