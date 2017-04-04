@@ -41,11 +41,11 @@ $(document).ready(function() {
         }, 1300);
     });
 
-    $('.projects-nav').click(function() {
+    /*$('.projects-nav').click(function() {
         $('html, body').animate({
             scrollTop: $('.projects').offset().top
         }, 1300);
-    });
+    });*/
 
     $('.contact-nav').click(function() {
         $('html, body').animate({
