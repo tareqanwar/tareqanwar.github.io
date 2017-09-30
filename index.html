@@ -1,179 +1,97 @@
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <title>Tareq Anwar</title>
-    <meta name="description" content="Tareq Anwar">
-    <meta name="author" content="Tareq Anwar">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC|Fredericka+the+Great|Lato:300,400,700,900" />
-    <link rel="stylesheet" href="css/styles.css">
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
-</head>
-<body>
-    <header>
-        <nav class="navbar navbar-default navbar-fixed-top animated fadeInDown" role="navigation">
-            <div class="container-fluid">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span>Show Menu</span>
-                    </button>
-                    <a class="navbar-brand" href="#">TA</a>
-                </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse navbar-ex1-collapse" id="CollapseMenu">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="about-nav"><a href="#"><i class="fa fa-fw fa-user-o" aria-hidden="true"></i> About</a></li>
-                        <li class="projects-nav"><a href="#"><i class="fa fa-fw fa-code" aria-hidden="true"></i> Projects</a></li>
-                        <li class="contact-nav"><a href="#"><i class="fa fa-fw fa-envelope-o" aria-hidden="true"></i> Contact</a></li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-            </div>
-        </nav>
-        <!-- HEADER CONTENT STARTS HERE -->
-        <div class="header-content" id="start-navbar-dark">
-            <h1 class="animated fadeInDown">Tareq Anwar</h1>
-            <h2 class="animated fadeInUp">Full Stack Developer</h2>
-            <div class="social-icons animated fadeInUp">
-                <a href="https://www.github.com/tareqanwar"><i class="fa fa-github"></i></a>
-                <a href="https://ca.linkedin.com/in/tareqanwar"><i class="fa fa-linkedin"></i></a>
-                <a href="mailto:trqnwr@gmail.com"><i class="fa fa-envelope-o"></i></a>
-                <a href="https://www.freecodecamp.com/tareqanwar"><i class="fa fa-free-code-camp"></i></a>
-            </div>
-            <button class="animated swing about-nav">About Me</button>
-        </div>
-    </header>
-    <!-- END HEADER -->
-    <div class="container-fluid">
-        <section class="row  about-section">
-            <!-- BEGIN SECTIONS -->
-            <div class="col-md-12 col-lg-6">
-                <img src="images/tareq-anwar.jpg" alt="Tareq Anwar" class="img-responsive profilepic">
-            </div>
-            <div class="col-md-12 col-lg-6 about" id="start-about-animation">
-                <h3><i class="fa fa-handshake-o" aria-hidden="true"></i>Hi, I'm Tareq!</h3>
-                <p class="tagline">I'm a M.Sc. in Computer Science student in Acadia University and a full stack developer with a passion for coding.</p>
-                <p class="desc-start">My goal is be a great coder. I am learning as much as I can to step up my level of coding. I am a student of Internet. Always learning and trying to keep with technologies with the help from Internet. I love FreeCodeCamp and opensource community.</p>
-                <h4>Experience and Development</h4>
-                <p class="desc-start">I have quite a bit of experience as a front end developer. But lately I have been learning about backend development a lot. I used to do backend development using PHP a while ago. Now I am more into NodeJS. I love NodeJS. I have been using AngulaJS, MongoDB, NodeJS, Express and pure JS for my recent projects.</p>
-                <h4>Goals for the Future</h4>
-                <p class="desc-start">Learning as much as I can by building various small to large projects. Getting Full Stack Developer certificate from FreeCodeCamp. Also I would love to have a good portfolio in GitHub.</p>
-            </div>
-        </section>
-        <section class="row  technologies">
-            <div class="col-md-2 col-xs-4 techsquares" id="start-technologies-animation">
-                <img src="images/technologies/bootstrap.png" alt="Bootstrap" class="img-responsive">
-            </div>
-            <div class="col-md-2 col-xs-4 techsquares">
-                <img src="images/technologies/js.png" alt="js" class="img-responsive">
-            </div>
-            <div class="col-md-2 col-xs-4 techsquares">
-                <img src="images/technologies/angular.png" alt="angular" class="img-responsive">
-            </div>
-            <div class="col-md-2 col-xs-4 techsquares">
-                <img src="images/technologies/node.png" alt="node" class="img-responsive">
-            </div>
-            <div class="col-md-2 col-xs-4 techsquares">
-                <img src="images/technologies/html.png" alt="html 5" class="img-responsive">
-            </div>
-            <div class="col-md-2 col-xs-4 techsquares">
-                <img src="images/technologies/github.png" alt="github" class="img-responsive">
-            </div>
-        </section>
-        <section class="projects">
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-4 project-tile f3" id='start-projects'>
-                    <div class="thumbnail">
-                        <img src="images/portfolio/rqm.jpg" alt="Random Quote Machine">
-                        <div class="caption">
-                            <h4>Random Quote Machine</h4>
-                            <p>It shows a new random quote everytime you go to the page or click on the "New Quote" button. You can also tweet the quote. The background color of buttons and quote changes everytime you get a new quote. Used HTML5, CSS3, BootStrap, AngularJS etc.</p>
-                            <a class="btn btn-default btn-proj" href="http://tareqanwar.com/RandomQuoteMachine" target="_blank"><i class="fa fa-external-link"></i> Show Project</a>
-                            <a class="btn btn-default btn-code" href="https://github.com/tareqanwar/RandomQuoteMachine" target="_blank"><i class="fa fa-github"> GitHub</i></a>
-                        </div>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Tareq Anwar</title>
+        <meta name="description" content="Tareq Anwar">
+        <meta name="author" content="Tareq Anwar">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC|Fredericka+the+Great|Lato:300,400,700,900" />
+        <link rel="stylesheet" href="css/styles.css">
+        <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+      <![endif]-->
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-default navbar-fixed-top animated fadeInDown" role="navigation">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span>Show Menu</span>
+                        </button>
+                        <a class="navbar-brand" href="#">TA</a>
                     </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 project-tile f3">
-                    <div class="thumbnail">
-                        <img src="images/portfolio/local-weather.jpg" alt="Local Weather">
-                        <div class="caption">
-                            <h4>Local Weather</h4>
-                            <p>It shows the current temparature and condition based on ip address. Used HTML5, CSS3, AngualrJS & BootStrap etc. Used OpenWeatherApi and IPInfoApi to gather the information needed.</p>
-                            <a class="btn btn-default btn-proj" href="http://tareqanwar.com/LocalWeather" target="_blank"><i class="fa fa-external-link"></i> Show Project</a>
-                            <a class="btn btn-default btn-code" href="https://github.com/tareqanwar/LocalWeather" target="_blank"><i class="fa fa-github"></i> GitHub</a>
-                        </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse navbar-ex1-collapse" id="CollapseMenu">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="about-nav"><a href="#"><i class="fa fa-fw fa-user-o" aria-hidden="true"></i> About</a></li>
+                            <li class="projects-nav"><a href="https://www.github.com/tareqanwar" target="_blank"><i class="fa fa-fw fa-code" aria-hidden="true"></i> Projects</a></li>
+                            <li class="contact-nav"><a href="#"><i class="fa fa-fw fa-envelope-o" aria-hidden="true"></i> Contact</a></li>
+                        </ul>
                     </div>
+                    <!-- /.navbar-collapse -->
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 project-tile f3">
-                    <div class="thumbnail">
-                        <img src="images/portfolio/todos.jpg" alt="ToDo List">
-                        <div class="caption">
-                            <h4>ToDo List (WIP)</h4>
-                            <p>Simple ToDo List project I am working on. Technology - NodeJS, Express, MongoDB, HTML5, CSS3, BootStrap etc.</p>
-                            <a class="btn btn-default btn-proj"  href="#" target="_blank"><i class="fa fa-external-link"></i> Show Project</a>
-                            <a class="btn btn-default btn-code" href="https://github.com/tareqanwar/NodeToDo-s" target="_blank"><i class="fa fa-github"> GitHub</i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-4 project-tile f3" id='start-projects'>
-                    <div class="thumbnail">
-                        <img src="images/portfolio/cal.jpg" alt="Calculator">
-                        <div class="caption">
-                            <h4>Simple Calculator</h4>
-                            <p>A simple calculator for FCC. Used HTML5, CSS3, JQuery & BootStrap etc.</p>
-                            <a class="btn btn-default btn-proj" href="http://www.tareqanwar.com/Calculator/" target="_blank"><i class="fa fa-external-link"></i> Show Project</a>
-                            <a class="btn btn-default btn-code" href="https://github.com/tareqanwar/Calculator" target="_blank"><i class="fa fa-github"></i> GitHub</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 project-tile f3">
-                    <div class="thumbnail">
-                        <img src="images/portfolio/wiki-viewer.jpg" alt="Wikipedia Viewer">
-                        <div class="caption">
-                            <h4>Wikipedia Viewer</h4>
-                            <p>You can search with any term and get result from wikipedia. There is a link for random article also. Used HTML5, CSS3, AngualrJS & BootStrap etc.</p>
-                            <a class="btn btn-default btn-proj" href="http://www.tareqanwar.com/WikipediaViewer/" target="_blank"><i class="fa fa-external-link"></i> Show Project</a>
-                            <a class="btn btn-default btn-code" href="https://github.com/tareqanwar/WikipediaViewer" target="_blank"><i class="fa fa-github"></i> GitHub</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 project-tile f3">
-                </div>
-            </div>
-        </section>
-        <section class="row contact">
-            <div class="col-sm-12 col-md-12">
-                <div class="contact-content">
-                    <h3>Let's Get In Touch!</h3>
+            </nav>
+            <!-- HEADER CONTENT STARTS HERE -->
+            <div class="header-content" id="start-navbar-dark">
+                <h1 class="animated fadeInDown">Tareq Anwar</h1>
+                <h2 class="animated fadeInUp">Full Stack Developer</h2>
+                <div class="social-icons animated fadeInUp">
                     <a href="https://www.github.com/tareqanwar"><i class="fa fa-github"></i></a>
                     <a href="https://ca.linkedin.com/in/tareqanwar"><i class="fa fa-linkedin"></i></a>
                     <a href="mailto:trqnwr@gmail.com"><i class="fa fa-envelope-o"></i></a>
                     <a href="https://www.freecodecamp.com/tareqanwar"><i class="fa fa-free-code-camp"></i></a>
                 </div>
+                <button class="animated swing about-nav">About Me</button>
             </div>
-            <div class="col-md-6">
-            </div>
-        </section>
-        <section class="row creator">
-            <div class="col-sm-12">
-                <p>Page <i class="fa fa-code"></i> with <i class="fa fa-heart"></i> by Tareq Anwar</p>
-            </div>
-        </section>
-        <!-- END SECTIONS -->
-    </div>
-</body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="scripts/app.js"></script>
-</html>
+        </header>
+        <!-- END HEADER -->
+        <div class="container-fluid">
+            <section class="row  about-section">
+                <!-- BEGIN SECTIONS -->
+                <div class="col-md-12 col-lg-6">
+                    <img src="images/tareq-anwar.jpg" alt="Tareq Anwar" class="img-responsive profilepic">
+                </div>
+                <div class="col-md-12 col-lg-6 about" id="start-about-animation">
+                    <h3><i class="fa fa-handshake-o" aria-hidden="true"></i>Hi, I'm Tareq!</h3>
+                    <p class="tagline">I'm a full stack developer (learner) with a passion for coding.</p>
+                    <p class="desc-start">I want to be good in coding. Always learning and trying to keep with technologies with the help from Internet. I love FreeCodeCamp and other opensource community.</p>
+                    <h4>Experience and Development</h4>
+                    <p class="desc-start">I have quite a bit of experience as a front and back end developer. I do API projects using PHP for my clients. But I love JavaScript. Learn coding in JavaScript.</p>
+                    <h4>Goals for the Future</h4>
+                    <p class="desc-start">Learning as much as I can by building various small to large projects. Getting Full Stack Developer certificate from FreeCodeCamp. Also I would love to have a good portfolio in GitHub.</p>
+                </div>
+            </section>
+            <section class="row contact">
+                <div class="col-sm-12 col-md-12">
+                    <div class="contact-content">
+                        <h3>Let's Get In Touch!</h3>
+                        <a href="https://www.github.com/tareqanwar"><i class="fa fa-github"></i></a>
+                        <a href="https://ca.linkedin.com/in/tareqanwar"><i class="fa fa-linkedin"></i></a>
+                        <a href="mailto:trqnwr@gmail.com"><i class="fa fa-envelope-o"></i></a>
+                        <a href="https://www.freecodecamp.com/tareqanwar"><i class="fa fa-free-code-camp"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                </div>
+            </section>
+            <section class="row creator">
+                <div class="col-sm-12">
+                    <p>Page <i class="fa fa-code"></i> with <i class="fa fa-heart"></i> by Tareq Anwar</p>
+                </div>
+            </section>
+            <!-- END SECTIONS -->
+        </div>
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="scripts/app.js"></script>
+    </html>
+    
