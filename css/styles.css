@@ -15,7 +15,7 @@ h1 {
 }
 
 header {
-    background: #004080;
+    background: #2c3e50;
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -142,7 +142,7 @@ h3 i {
 }
 
 .about-section {
-    background: #331100;
+    background: #7f8c8d;
     text-align: center;
     box-shadow: inset 0 -15px 30px -20px #000;
 }
@@ -196,39 +196,6 @@ h3 i {
   font-weight: 700;
 }
 
-.project-tile {
-  padding: 2vh 5%;
-}
-
-.project-tile h4 {
-  color: #000;
-  font-size: 20px;
-  font-weight: 400;
-}
-
-.projects {
-  background: #b3f0ff;
-  text-align: center;
-}
-
-.thumbnail {
-  background: #FFF;
-  border: none;
-}
-
-.thumbnail img {
-  width: 100%;
-}
-
-.f3 {
-  -webkit-animation-duration: 0.9s;
-  animation-duration: 0.9s;
-}
-
-.s3 {
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
-}
 
 .caption h4 {
   font-weight: 700;
@@ -355,9 +322,5 @@ h3 i {
 @media screen and (orientation: landscape) and (max-height: 568px) {
   .header-content button {
     display: none;
-  }
-  .thumbnail {
-    width: 55%;
-    margin: 0 auto;
   }
 }
