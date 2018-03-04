@@ -1,6 +1,14 @@
+/* Font Face */
+
+@font-face {
+  font-family: "BoldCom";
+  src: "../fonts/bold.ttf";
+}
+
+/* Basic Styles Start Here */
 html,
 body {
-    font-family: 'Lato', Arial;
+  font-family: 'Open Sans', sans-serif;
   color: #fff;
 }
 
@@ -32,7 +40,7 @@ h2 {
 }
 
 h3 {
-    font-family: Lato, Arial;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 900;
     font-size: 40px;
     margin: 20px 0;
@@ -40,13 +48,13 @@ h3 {
 }
 
 h4 {
-    font-family: Lato, Arial;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 28px;
 }
 
 h5 {
-    font-family: Lato, Arial;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 22px;
 }
@@ -68,14 +76,14 @@ h3 i {
 }
 
 .navbar-brand {
-    color: rgba(255, 255, 255, 0.8)!important;
-    font-family: Lato, Arial;
+    font-family: "BoldCom";
+    color: #d6d7db !important;
     font-size: 36px;
     font-weight: 900;
 }
 
 .navbar-default .navbar-nav li a {
-    color: rgba(255, 255, 255, 0.8);
+    color: #d6d7db;
     font-family: 'Lato', Arial;
     font-size: 16px;
     font-weight: 700;
@@ -191,7 +199,7 @@ h3 i {
 /* Contact Section Styles Start Here */
 .contact {
   background: #252525;
-  font-family: Lato, Arial;
+  font-family: 'Open Sans', sans-serif;
   padding: 100px;
   text-align: center;
 }
@@ -239,7 +247,7 @@ h3 i {
 
 .creator p {
   color: #FFF;
-  font-family: Lato, Arial;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 300;
   margin: 0;
@@ -259,13 +267,9 @@ h3 i {
 @media (max-width: 767px) {
   h1 {
     font-size: 36px;
-    font-weight: 900;
-    font-family: 'Lato';
   }
   h2 {
     font-size: 18px;
-    font-weight: 300;
-    font-family: 'Lato';
   }
   .about-section div img {
     width: 50%;
