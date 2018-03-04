@@ -188,17 +188,6 @@ h3 i {
 }
 /* About Section Styles End Here */
 
-/* Education Section Styles Start Here */
-.education-section {
-  background: #5C6BC0;
-}
-.education-section p, .education-section p{
-  margin-top: 15px;
-}
-
-
-/* Education Section Styles End Here */
-
 /* Contact Section Styles Start Here */
 .contact {
   background: #252525;

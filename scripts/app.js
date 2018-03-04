@@ -3,7 +3,6 @@ $(document).ready(function() {
     var scrollEnd = 0;
     var hOffset = $('#start-navbar-dark').offset();
     var aOffset = $('#start-about-animation').offset();
-    var eOffset = $('#start-education-animation').offset();
     // Optimization flags so that it doesnt run every scroll
     var headerAnimate = true;
     var aboutAnimate = true;
@@ -23,21 +22,12 @@ $(document).ready(function() {
             $('.about h3').addClass('animated fadeInDown');
             $('.profilepic').addClass('animated fadeInUp');
             aboutAnimate = false;
-        } else if (scrollEnd > eOffset.top && educationAnimate) {
-            $('.education').addClass('animated fadeInUp');
-            educationAnimate = false;
-        } 
+        }
     });
 
     $('.about-nav').click(function() {
         $('html, body').animate({
             scrollTop: $('.about-section').offset().top
-        }, 1300);
-    });
-
-    $('.education-nav').click(function() {
-        $('html, body').animate({
-            scrollTop: $('.education-section').offset().top
         }, 1300);
     });
 
