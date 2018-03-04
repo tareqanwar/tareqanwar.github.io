@@ -3,13 +3,11 @@ $(document).ready(function() {
     var scrollEnd = 0;
     var hOffset = $('#start-navbar-dark').offset();
     var aOffset = $('#start-about-animation').offset();
-    var tOffset = $('#start-technologies-animation').offset();
-    var pOffset = $('#start-projects').offset();
+    var eOffset = $('#start-education-animation').offset();
     // Optimization flags so that it doesnt run every scroll
     var headerAnimate = true;
     var aboutAnimate = true;
-    var technologiesAnimate = true;
-    var projectsAnimate = true;
+    var educationAnimate = true;
 
     $(document).scroll(function() {
         scrollStart = $(this).scrollTop();
@@ -25,14 +23,10 @@ $(document).ready(function() {
             $('.about h3').addClass('animated fadeInDown');
             $('.profilepic').addClass('animated fadeInUp');
             aboutAnimate = false;
-        } else if (scrollEnd > tOffset.top && technologiesAnimate) {
-            $('.techsquares img').addClass('animated fadeInUp');
-            technologiesAnimate = false;
-        } else if (scrollEnd > pOffset.top && projectsAnimate) {
-            $('.f3').addClass('animated fadeInUp');
-            $('.s3').addClass('animated fadeInUp');
-            projectsAnimate = false;
-        }
+        } else if (scrollEnd > eOffset.top && educationAnimate) {
+            $('.education').addClass('animated fadeInUp');
+            educationAnimate = false;
+        } 
     });
 
     $('.about-nav').click(function() {
@@ -41,15 +35,19 @@ $(document).ready(function() {
         }, 1300);
     });
 
-    /*$('.projects-nav').click(function() {
+    $('.education-nav').click(function() {
         $('html, body').animate({
-            scrollTop: $('.projects').offset().top
+            scrollTop: $('.education-section').offset().top
         }, 1300);
-    });*/
+    });
 
     $('.contact-nav').click(function() {
         $('html, body').animate({
             scrollTop: $('.contact').offset().top
         }, 1300);
     });
+  
+  /* Console Messages */
+  console.log("Hi, this is Tareq :)");
+  console.log("Nice to meet you.");
 });
