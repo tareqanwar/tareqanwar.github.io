@@ -87,7 +87,7 @@ h3 i {
   color: #fff !important;
   font-size: 36px;
   font-weight: 900;
-  background: transparent;
+  background: #dc3626;
 }
 
 .navbar-brand:hover {
@@ -133,7 +133,7 @@ h3 i {
   -moz-animation-delay: 1.75s;
   -webkit-animation-delay: 1.75s;
   animation-delay: 1.75s;
-  background: #dc3626;
+  background: transparent;
   border: 2px solid #FFF;
   border-radius: 4px;
   font-weight: 400;
