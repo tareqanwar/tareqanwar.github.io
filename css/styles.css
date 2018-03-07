@@ -87,7 +87,7 @@ h3 i {
   color: #fff !important;
   font-size: 36px;
   font-weight: 900;
-  background: #dc3626;
+  background: transparent;
 }
 
 .navbar-brand:hover {
