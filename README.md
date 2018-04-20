@@ -1,4 +1,4 @@
-## Hi there!
+## Hello, GitHub!
 
 Thanks for checking out [my website](https://tareqanwar.com/). Here's what's going on:
 
