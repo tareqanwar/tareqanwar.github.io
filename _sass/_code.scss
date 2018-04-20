@@ -1,0 +1,35 @@
+code,
+pre {
+  font: {
+    family: $fonts;
+    size: .9rem;
+  }
+}
+div.highlighter-rouge,
+code.highlighter-rouge {
+  background-color: #f6f8fa;
+  color: #000000;
+}
+div.highlighter-rouge {
+  hyphens: none;
+  line-height: 1.5;
+  margin: {
+    bottom: 1.5rem;
+    top: 1.5rem;
+  }
+  overflow: scroll;
+  padding: {
+    bottom: .25rem;
+    left: .5rem;
+    right: .5rem;
+    top: .25rem;
+  }
+  tab-size: 4;
+  word: {
+    spacing: normal;
+    break: normal;
+    wrap: normal;
+  }
+  ::selection { background-color: #44475a; }
+  pre { margin: 0; }
+}
