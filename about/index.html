@@ -1,0 +1,23 @@
+---
+title: About
+---
+
+<p>Hello &amp; Welcome.</p>
+<p>I'm {{site.author}}: a programmer, gamer, and blogger.</p>
+<p>After completing B.Sc. in Computer Science and Engineering, I started my career as a web developer. Programming is my passion. I am always learning and trying to keep up with the help of the internet. I love FreeCodeCamp and other open-source community. Pursuing a Web Development diploma at the University of Winnipeg. Also, I have a plan to obtain all the certificates from Free Code Camp.</p>
+<p>
+  — Tareq
+</p>
+
+
+<section id="contact">
+    <h3 class="section__title">Find me</h3>
+    <div class="contact-list">
+        {% for item in site.about %}
+        <a target="_blank" class="contact" href="{{ item.url }}">
+            <span class="contact__title">{{ item.name }}</span>
+            <span class="contact__date">{{ item.username }}</span>
+        </a>
+        {% endfor %}
+    </div>
+</section>

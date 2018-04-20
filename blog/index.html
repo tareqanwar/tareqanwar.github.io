@@ -1,0 +1,32 @@
+---
+title: Blog
+---
+
+{% for post in site.posts %}
+{% assign currentdate = post.date | date: "%Y" %}
+{% if currentdate != date %}
+{% unless forloop.first %}</section>{% endunless %}
+<section class="blog-section" id="y{{post.date | date: "%Y"}}">
+    <h2 class="blog-section__title">{{ currentdate }}</h2>
+    <ul class="blog-list">
+      {% assign date = currentdate %}
+      {% endif %}
+      <li class="blog-list-item">
+        <a
+          class="blog-list-item__link"
+          href="{{ post.url | prepend: site.baseurl }}"
+        >
+          <span class="blog-list-item__title">{{ post.title }}</span>
+          <time
+            class="blog-list-item__time"
+            datetime="{{ post.date | date: "%Y-%m-%d" }}"
+          >
+            {{ post.date | date: "%m.%Y" }}
+          </time>
+        </a>
+      </li>
+      {% if forloop.last %}
+    </ul>
+</section>
+{% endif %}
+{% endfor %}

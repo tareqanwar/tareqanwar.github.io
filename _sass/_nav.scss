@@ -1,0 +1,33 @@
+@import 'variables';
+@import 'mixins';
+
+.nav {
+  @include flex-row;
+  align-items: center;
+  border-bottom: {
+    color: $black;
+    style: solid;
+    width: 1px;
+  }
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  padding-bottom: .35rem;
+}
+.nav__left,
+.nav__right {
+  @include flex-row;
+}
+.nav a {
+  font: {
+    size: .9rem;
+    weight: 400;
+  }
+  margin-right: 1rem;
+  text-decoration: none;
+  &:last-child { margin-right: 0; }
+  &.active { font-weight: bold; }
+  &.logo {
+    color: $green;
+    font-weight: bold;
+  }
+}
