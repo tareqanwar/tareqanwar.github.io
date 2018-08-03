@@ -3,3 +3,6 @@ apps
 *.vscode
 *.swp
 CNAME
+_site
+.sass-cache
+.jekyll-metadata
