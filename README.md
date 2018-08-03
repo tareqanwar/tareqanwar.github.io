@@ -12,7 +12,7 @@ There's not much more to it.
 ## Contact
 
 * Submit an [issue](https://github.com/tareqanwar/tareqanwar.github.io/issues)
-* [CV](https://tareqanwar.com/CV/)
+* [CV](https://tareqanwar.com/cv/)
 * [Twitter](https://twitter.com/trqnwr/)
 
 ## License
