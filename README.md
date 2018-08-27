@@ -4,7 +4,7 @@ Thanks for checking out [my website](https://tareqanwar.com/). Here's what's goi
 
 - Hosted my files in my personal RaspberyPi server.
 - Used [GoogleDomains'](https://domains.google) dynamic dns to point to my server IP address and corn to keep it updated
-- Thanks [LetsEncrypt](https://letsencrypt.org) and [CertBot](https://certbot.eff.org) for free SSL certificate.
+- [LetsEncrypt](https://letsencrypt.org) and [CertBot](https://certbot.eff.org) for free SSL certificate.
 - [Brain.JS](https://brain.js.org/) for free neural network script.
 
 ## Contact
