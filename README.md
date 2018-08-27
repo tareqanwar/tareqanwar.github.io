@@ -2,12 +2,10 @@
 
 Thanks for checking out [my website](https://tareqanwar.com/). Here's what's going on:
 
-- [GitHub Pages](https://pages.github.com) graciously hosts my site.
-- [CloudFlare](https://www.cloudflare.com) powers my DNS (and SSL ftw).
-- Canvas to add the color changer circle
-- [Brain.JS](https://brain.js.org/) to change the text color based on background color
-
-There's not much more to it.
+- Hosted my files in my personal RaspberyPi server.
+- Used [GoogleDomains'](https://domains.google) dynamic dns to point to my server IP address and corn to keep it updated
+- Thanks [LetsEncrypt](https://letsencrypt.org) and [CertBot](https://certbot.eff.org) for free SSL certificate.
+- [Brain.JS](https://brain.js.org/) for free neural network script.
 
 ## Contact
 
