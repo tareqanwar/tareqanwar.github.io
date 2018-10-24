@@ -30,16 +30,15 @@ h1 {
 
 header {
   background: #2c3e50;
-  background-image: url(/images/pexels-photo.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
   height: 100vh;
   position: relative;
 }
 
 header::after {
   content: "";
-  background: url(image.jpg);
+  background-image: url(/images/pexels-photo.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
   opacity: 0.5;
   top: 0;
   left: 0;
