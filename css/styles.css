@@ -34,6 +34,19 @@ header {
   background-size: 100%;
   background-repeat: no-repeat;
   height: 100vh;
+  position: relative;
+}
+
+header::after {
+  content: "";
+  background: url(image.jpg);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
 }
 
 h2 {
