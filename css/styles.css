@@ -1,5 +1,5 @@
 /* Font Face */
-
+/*
 @font-face {
   font-family: 'DessauBold';
   src: url('./fonts/DessauBold.woff2') format('woff2'),
@@ -7,7 +7,7 @@
   font-weight: bold;
   font-style: normal;
 }
-
+*/
 
 /* Basic Styles Start Here */
 
@@ -81,11 +81,11 @@ h3 i {
 }
 
 .navbar-brand {
-  font-family: "DessauBold";
+  font-family: 'Roboto', sans-serif;
   color: #fff !important;
   font-size: 36px;
-  font-weight: 900;
-  background: #dc3626;
+  font-weight: 700;
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .navbar-brand:hover {
@@ -185,7 +185,7 @@ canvas {
 }
 
 .about-section {
-  background: #dc3626;
+  background: #000;
   text-align: center;
   box-shadow: inset 0 -15px 30px -20px #000;
 }
