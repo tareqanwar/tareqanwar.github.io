@@ -114,7 +114,7 @@ $(document).ready(function() {
             $(".about-section").css("color", "#000");
     }
     else {
-        $("header").css("background-color", hex);
+        $("header::after").css("background-color", hex);
         if(result == 'dark')
             $("header").css("color", "#fff");
         else
