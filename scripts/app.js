@@ -85,6 +85,18 @@ $(document).ready(function() {
         }
     }
 
+    function formatRGBA(r, g, b, a) {
+        if (r > 255 || g > 255 || b > 255 || a > 100)
+            throw "Invalid color component";
+
+        return {
+            r: Math.floor(r / 2.55) / 100,
+            g: Math.floor(g / 2.55)/ 100,
+            b: Math.floor(b / 2.55) / 100,
+            a: a / 100
+        }
+    }
+
     function rgbToHex(r, g, b) {
         if (r > 255 || g > 255 || b > 255)
             throw "Invalid color component";
@@ -100,6 +112,7 @@ $(document).ready(function() {
     var p = c.getImageData(x, y, 1, 1).data;
     var hex = "#" + ("000000" + rgbToHex(p[0], p[1], p[2])).slice(-6);
     var rgb = formatRGB(p[0], p[1], p[2]);
+    var rgba = formatRGBA(p[0], p[1], p[2], 50);
     console.log(rgb);
 
     const result = brain.likely(rgb, net)
@@ -114,7 +127,7 @@ $(document).ready(function() {
             $(".about-section").css("color", "#000");
     }
     else {
-        $("header").css("background-color", hex);
+        $("header").css("background-color", rgba);
         if(result == 'dark')
             $("header").css("color", "#fff");
         else
