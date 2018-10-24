@@ -3,7 +3,6 @@ importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.6.1/workbox
 const staticAssets = [
     './',
     './css/styles.css',
-    './images/tareq-anwar.jpg',
     './images/pexels-photo.jpg'
 ];
 
