@@ -37,7 +37,7 @@ header {
 header::after {
   content: "";
   background-image: url(/images/pexels-photo.jpg);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   opacity: 0.5;
   top: 0;
@@ -45,7 +45,6 @@ header::after {
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: -1;   
 }
 
 h2 {
