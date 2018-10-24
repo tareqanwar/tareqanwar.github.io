@@ -113,7 +113,7 @@ $(document).ready(function() {
     var hex = "#" + ("000000" + rgbToHex(p[0], p[1], p[2])).slice(-6);
     var rgb = formatRGB(p[0], p[1], p[2]);
     var rgba = formatRGBA(p[0], p[1], p[2], 50);
-    console.log(rgb);
+    console.log(rgba);
 
     const result = brain.likely(rgb, net)
 
