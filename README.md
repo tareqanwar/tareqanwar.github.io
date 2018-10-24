@@ -2,7 +2,8 @@
 
 Thanks for checking out [my website](https://tareqanwar.com/). Here's what's going on:
 
-- Hosted my files in my personal RaspberyPi server.
+- Used Progressive Web App approach to enable offline use.
+- Hosted in my personal RaspberyPi server.
 - Used [GoogleDomains'](https://domains.google) dynamic dns to point to my server IP address and corn to keep it updated
 - [LetsEncrypt](https://letsencrypt.org) and [CertBot](https://certbot.eff.org) for free SSL certificate.
 - [Brain.JS](https://brain.js.org/) for free neural network script.
