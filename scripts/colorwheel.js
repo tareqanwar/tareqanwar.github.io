@@ -31,11 +31,11 @@ Raphael.colorwheel = function(target, color_wheel_size, no_segments){
       sdim; // holds the dimensions for the saturation square
 
   function point(x, y){ return {x:x, y:y};}
-  function radians(a){ return a * (Math.PI/180);}
+  function radians(a){ return a * (Math.PI/90);}
 
   function angle(x,y){
-    var q = x > 0 ? 0 : 180;
-    return q+Math.atan((0 - y)/(0 - x))*180/(Math.PI);
+    var q = x > 0 ? 0 : 90;
+    return q+Math.atan((0 - y)/(0 - x))*90/(Math.PI);
   }
 
   function create(target, color_wheel_size){
