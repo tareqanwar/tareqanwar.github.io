@@ -38,8 +38,8 @@ $(document).ready(function() {
             scrollTop: $('.contact').offset().top
         }, 1300);
     });
-
-  /* Color Wheel */
+/*
+  /* Color Wheel 
   var canvas = document.getElementById("picker");
   var context = canvas.getContext("2d");
   var x = canvas.width / 2;
@@ -61,7 +61,7 @@ $(document).ready(function() {
       context.fill();
   }
 
- /* Brain.JS */
+ /* Brain.JS 
  var net = new brain.NeuralNetwork();
 
  net.train([
@@ -121,6 +121,7 @@ $(document).ready(function() {
             $("header").css("color", "#000");
     }
   });
+  */
 
   if('serviceWorker' in navigator) {
     try {
