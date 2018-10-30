@@ -213,9 +213,9 @@ canvas {
 }
 
 .profilepic {
-  border: 20px solid rgba(255, 255, 255, 0.8);
+  border: 10px solid rgba(255, 255, 255, 0.8);
   border-radius: 50%;
-  margin: 65px auto;
+  margin: -25px auto;
 }
 
 .about-section button {
