@@ -170,16 +170,16 @@ canvas {
   background: #dc3626;
 }
 
-.social-icons {
+.ta-social-icons {
   font-size: 30px;
   margin-top: 10px;
 }
 
-.social-icons i {
+.ta-social-icons i {
   margin: 0 5px;
 }
 
-.social-icons i:hover {
+.ta-social-icons i:hover {
   -webkit-animation: swing 1s ease;
   animation: swing 1s ease;
   -webkit-animation-iteration-count: 1;
@@ -317,7 +317,7 @@ canvas {
   .about-section div img {
     width: 50%;
   }
-  .social-icons i {
+  .ta-social-icons i {
     margin: 0;
   }
   .navbar-brand {
