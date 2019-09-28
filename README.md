@@ -3,7 +3,6 @@
 Thanks for checking out [my website](https://tareqanwar.com/). Here's what's going on:
 
 - [GitHub Pages](https://pages.github.com) graciously hosts my site.
-- [CloudFlare](https://www.cloudflare.com) powers my DNS (and SSL ftw).
 - Syntactically Awesome Style Sheets (a.k.a [Sass](https://sass-lang.com)) help make it pretty.
 - My blog posts are written in [Kramdown](https://kramdown.gettalong.org/documentation.html).
 - And [Jekyll](https://jekyllrb.com) does just about everything else.
