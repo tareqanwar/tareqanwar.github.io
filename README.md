@@ -1,6 +1,6 @@
 ## Hello, GitHub!
 
-Thanks for checking out [my website](https://tareqanwar.com/). Here's what's going on:
+Thanks for checking out [my website](https://tareqanwar.dev/). Here's what's going on:
 
 - [GitHub Pages](https://pages.github.com) graciously hosts my site.
 - Syntactically Awesome Style Sheets (a.k.a [Sass](https://sass-lang.com)) help make it pretty.
