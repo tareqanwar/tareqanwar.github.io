@@ -1,6 +1,6 @@
 title: Tareq Anwar
 description: Web Programmer
-url: "https://tareqanwar.dev"
+url: "https://tareqanwar.com"
 author: "Tareq Anwar"
 keywords: "tareq anwar, software developer, canada"
 github: tareqanwar
@@ -41,14 +41,6 @@ about:
   username: tareqanwar
   url: https://github.com/tareqanwar
   class: github
-- name: Stack Overflow
-  username: tareqanwar
-  url: https://stackoverflow.com/users/2419342/tareqanwar
-  class: stackoverflow
-- name: Medium
-  username: tareqanwar
-  url: https://medium.com/@tareqanwar
-  class: medium
 - name: Twitter
   username: trqnwr
   url: https://twitter.com/trqnwr
